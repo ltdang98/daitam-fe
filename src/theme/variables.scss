@@ -1,0 +1,45 @@
+/** CSS Variables **/
+:root {
+  --header-height: 3rem;
+  --header-color: #fff;
+  --container-color: #fff;
+  --body-color: #fff;
+
+  /* color */
+  --color-primary: #DF2E2E;
+  --color-secondary: #F6D167;
+  --color-canary: #FFF7AE;
+  --color-celadon-green: #297F87;
+  --color-blue-dark: #1B1F50;
+  --text-color: #313131;
+  --title-color: #2d2d2d;
+
+  /* Font size */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /* font weight */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* z-index */
+  --z-fixed: 100;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}

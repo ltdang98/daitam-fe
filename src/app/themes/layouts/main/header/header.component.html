@@ -1,0 +1,72 @@
+<header class="header">
+  <a href="#" class="header__logo">Đại Tâm</a>
+  <div class="header__toggle">
+    <i class="bx" [ngClass]="isShowMenu ? 'bx-x' : 'bx-menu'" id="header-toggle" (click)="handlerShowMenu()"></i>
+  </div>
+
+  <nav class="nav" id="nav-menu" [ngClass]="isShowMenu ? 'show' : ''">
+    <div class="nav__content bd-grid">
+      <a href="#" class="nav__perfil">
+        <div class="nav__img">
+          <img src="assets/images/logo_3.png">
+        </div>
+
+        <div>
+          <span class="nav__name">Thành lập công ty miễn phí</span>
+        </div>
+      </a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" [routerLink]="['/', 'home-page']"
+              [routerLinkActive]="'active'">Trang chủ</a></li>
+
+          <li class="nav__item"><a class="nav__link">Dịch vụ đăng ký</a></li>
+
+          <li class="nav__item dropdown">
+            <a class="nav__link dropdown__link">Giá Dịch vụ<i class="bx bx-chevron-down dropdown__icon"></i></a>
+
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Dịch vụ Thành lập công ty</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Kế toán thuế trọn gói</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item dropdown">
+            <a class="nav__link dropdown__link">Dịch vụ kế toán - thuế<i class="bx bx-chevron-down dropdown__icon"></i></a>
+
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Giấy phép vệ sinh an toàn thực phầm</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Dịch vụ kế toán thuế trọn gói</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item"><a class="nav__link">Đào tạo</a></li>
+
+          <li class="nav__item dropdown">
+            <a class="nav__link dropdown__link">Tin tức<i class="bx bx-chevron-down dropdown__icon"></i></a>
+
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Tin tức Tâm Việt</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="nav__link">Tin tức kế toán</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item"><a class="nav__link">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

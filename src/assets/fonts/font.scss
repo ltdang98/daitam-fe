@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-weight: var(--font-medium);
+  src: url('./Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-weight: var(--font-medium);
+  src: url('./Roboto/Roboto-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Aileron-Regular';
+  font-weight: var(--font-medium);
+  src: url('./Aileron/Aileron-Regular.otf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Aileron-SemiBold';
+  font-weight: var(--font-medium);
+  src: url('./Aileron/Aileron-SemiBold.otf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Now-Regular';
+  font-weight: var(--font-medium);
+  src: url('./Now/Now-Regular.otf');
+}
